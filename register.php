@@ -213,10 +213,10 @@
 
 						<ul class="nav nav-tabs">
 							<li>
-								<a href="/form_auth/index.php">Login</a>
+								<a href="index.php">Login</a>
 							</li>
 							<li class="active">
-							<a href="/form_auth/register.php" >Create Account</a>
+							<a href="register.php" >Create Account</a>
 							</li>
 						</ul>
 
