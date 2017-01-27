@@ -40,7 +40,7 @@
 		public function isBlackListed()
 		{
 			include('connect.php');
-			$query = "SELECT * from `users` WHERE `ip_adress`= '".$this->ipAdress."' and TIMESTAMPDIFF(minute,reg_date,NOW())<".self::TIMEOUT_HOUR . ";";
+			$query = "SELECT * from `users` WHERE `ip_adress`= '".$this->ipAdress."' and TIMESTAMPDIFF(HOUR,reg_date,NOW())<".self::TIMEOUT_HOUR . ";";
 			$result = mysqli_query($db_connect, $query);
 
 			if( mysqli_num_rows($result) != 0 )
