@@ -1,0 +1,16 @@
+.auth-tab
+{
+	width: 600px;
+	margin: 50,auto;
+}
+
+body
+{
+	background: #34877a;
+}
+.required 
+{
+	color:red;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
